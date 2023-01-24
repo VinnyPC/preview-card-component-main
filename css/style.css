@@ -1,0 +1,197 @@
+/* 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Fraunces', serif;
+*/
+body {
+    background: hsl(30, 38%, 92%);
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    #image-desktop {
+        display: none;
+    }
+
+    main {
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px 20px;
+        border: hsl(30, 38%, 92%) solid;
+        border-radius: 10px;
+    }
+
+    #image-mobile {
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    main span {
+        margin-top: 25px;
+        margin-left: 18px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        letter-spacing: 5px;
+        font-size: 0.7em;
+        color: hsl(228, 12%, 48%);
+    }
+
+    main h1 {
+        font-family: 'Fraunces', serif;
+        margin: 10px 18px 0px 18px;
+        
+    }
+
+    #description {
+        color: hsl(228, 12%, 48%);
+        margin: 15px 18px 0px 18px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        line-height: 1.7em;
+        font-size: 14px;
+    }
+
+    #values {
+        display: flex;
+        align-items: center;
+        margin-left: 18px;
+    }
+
+    #values p {
+        margin-left: 18px;
+        font-size: 15px;
+    }
+
+    #values h2 {
+        font-family: 'Fraunces', serif;
+        font-size: 32px;
+        color: hsl(158, 36%, 37%);
+    }
+
+    button {
+        padding: 1em;
+        background: hsl(158, 36%, 37%);
+        background-image: url(../images/icon-cart.svg) no-repeat;
+        color: #fff;
+        border: 1px solid hsl(158, 36%, 37%);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    button:hover {
+        transition: 1s;
+        background: hsl(158, 36%, 22%);
+    }
+
+    #cart-icon {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    
+
+    #image-mobile {
+        display: none;
+    }
+
+    #image-desktop {
+        float: left;
+        width: 375px;
+    }
+
+    main {
+        background: #fff;
+        margin: 300px;
+        float: right;
+    }
+
+    #desktop-style {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #desktop-style span {
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        letter-spacing: 5px;
+        font-size: 0.9em;
+        color: hsl(228, 12%, 48%);
+        margin-top: 35px;
+        margin-left: 30px;
+    }
+
+    main h1 {
+        font-family: 'Fraunces', serif;
+        font-size: 42px;
+        margin: 22px 130px 0 30px;
+    }
+
+    #description {
+        color: hsl(228, 12%, 48%);
+        margin: 15px 18px 0px 18px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        line-height: 1.7em;
+        font-size: 17px;
+        margin: 22px 130px 0 30px;
+    }
+
+    #values {
+            display: flex;
+            align-items: center;
+            padding-left: 30px;
+    }
+        
+    #values p {
+            margin-left: 18px;
+            font-size: 15px;
+    }
+        
+    #values h2 {
+            font-family: 'Fraunces', serif;
+            font-size: 32px;
+            color: hsl(158, 36%, 37%);
+    }
+
+
+    button {
+        padding: 1em;
+        background: hsl(158, 36%, 37%);
+        background-image: url(../images/icon-cart.svg) no-repeat;
+        color: #fff;
+        border: 1px solid hsl(158, 36%, 37%);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+    footer {  
+        font-size: 11px; 
+        text-align: center;
+    }
+
+    footer a { 
+        color: hsl(228, 45%, 44%); 
+    }
+
